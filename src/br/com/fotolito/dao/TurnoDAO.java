@@ -41,6 +41,7 @@ public class TurnoDAO {
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
             
        JOptionPane.showMessageDialog(null, "Cadastrado com Sucesso!");
         } 
@@ -65,6 +66,7 @@ public class TurnoDAO {
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Alterado com Sucesso!");
 
@@ -89,6 +91,7 @@ public class TurnoDAO {
             //3 passo - executar o comando sql
             stmt.execute();
             stmt.close();
+            con.close();
 
             JOptionPane.showMessageDialog(null, "Excluido com Sucesso!");
 
@@ -122,6 +125,7 @@ public class TurnoDAO {
                 lista.add(obj);
 
             }
+            con.close();
             return lista;
 
         } catch (Exception erro) {

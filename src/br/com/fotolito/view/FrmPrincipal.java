@@ -396,7 +396,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txt_nomeTurno = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("FotolitoApp 2.0");
+        setTitle("FotolitoApp 2.1");
         setMinimumSize(new java.awt.Dimension(1100, 680));
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowActivated(java.awt.event.WindowEvent evt) {
@@ -464,7 +464,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanelPrincipal.setLayout(new java.awt.CardLayout());
 
         jPanelFilmeFaca.setBackground(new java.awt.Color(65, 65, 65));
-        jPanelFilmeFaca.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "FILME DE FACA", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BELOW_TOP, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(204, 255, 255))); // NOI18N
+        jPanelFilmeFaca.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "FILME DE FACA", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BELOW_TOP, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(204, 255, 255))); // NOI18N
 
         jScrollPaneFilmeFaca.setBackground(new java.awt.Color(65, 65, 65));
         jScrollPaneFilmeFaca.setForeground(new java.awt.Color(255, 255, 255));
@@ -498,7 +498,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         tb_FilmeFaca.setToolTipText("Duplo clicke no registro para alterá-lo!");
         tb_FilmeFaca.setGridColor(new java.awt.Color(51, 51, 51));
         tb_FilmeFaca.setOpaque(false);
-        tb_FilmeFaca.setShowHorizontalLines(false);
         tb_FilmeFaca.getTableHeader().setReorderingAllowed(false);
         tb_FilmeFaca.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -851,7 +850,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanelFilmeFaca.getAccessibleContext().setAccessibleName("faca");
 
         jPanelFilmeHot.setBackground(new java.awt.Color(65, 65, 65));
-        jPanelFilmeHot.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "FILME DE HOT", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BELOW_TOP, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(204, 255, 255))); // NOI18N
+        jPanelFilmeHot.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "FILME DE HOT", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BELOW_TOP, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(204, 255, 255))); // NOI18N
         jPanelFilmeHot.setForeground(new java.awt.Color(255, 255, 255));
 
         jPanel3.setBackground(new java.awt.Color(65, 65, 65));
@@ -1229,7 +1228,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jPanelFilmeHot.getAccessibleContext().setAccessibleName("hot");
 
         jPanelConfig.setBackground(new java.awt.Color(65, 65, 65));
-        jPanelConfig.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "CONFIGURAÇÃO", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BELOW_TOP, new java.awt.Font("Dialog", 1, 12), new java.awt.Color(204, 255, 255))); // NOI18N
+        jPanelConfig.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "CONFIGURAÇÃO", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BELOW_TOP, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(204, 255, 255))); // NOI18N
         jPanelConfig.setForeground(new java.awt.Color(255, 255, 255));
 
         jPanel5.setBackground(new java.awt.Color(63, 63, 63));
