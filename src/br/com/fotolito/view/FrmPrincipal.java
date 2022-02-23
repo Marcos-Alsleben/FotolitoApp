@@ -57,7 +57,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 c.getOcorrencia(),
                 c.getObs()
             });
-
         }
     }
 
@@ -78,7 +77,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 c.getOcorrencia(),
                 c.getObs()
             });
-
         }
     }
 
@@ -148,7 +146,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         for (Setor c : lista) {
             cb_setorFaca.addItem(c.getNomeSetor());
-
         }
     }
 
@@ -165,7 +162,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         for (Turno c : lista) {
             cb_turnoFaca.addItem(c.getNomeTurno());
             cb_turnoHot.addItem(c.getNomeTurno());
-
         }
     }
 
@@ -188,7 +184,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 c.getOcorrencia(),
                 c.getObs()
             });
-
         }
     }
 
@@ -211,7 +206,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 c.getOcorrencia(),
                 c.getObs()
             });
-
         }
     }
 
@@ -253,7 +247,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
             dados.addRow(new Object[]{
                 c.getId(),
                 c.getNomeCliente(),});
-
         }
     }
     
@@ -267,7 +260,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
             dados.addRow(new Object[]{
                 c.getId(),
                 c.getNomeSetor(),});
-
         }
     }
     
@@ -281,7 +273,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
             dados.addRow(new Object[]{
                 c.getId(),
                 c.getNomeTurno(),});
-
         }
     }
 
@@ -1875,7 +1866,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
                     }
                 }
             }
-
         }
     }//GEN-LAST:event_btn_adicionarFacaActionPerformed
 
