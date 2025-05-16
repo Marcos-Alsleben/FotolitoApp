@@ -18,7 +18,8 @@ public class ConnectionFactory {
 
         try {
 
-            return DriverManager.getConnection("jdbc:mysql://10.0.72.61:3306/bdfotolito?useSSL=false", "carton", "2574");
+            //return DriverManager.getConnection("jdbc:mysql://10.0.72.61:3306/bdfotolito?useSSL=false", "carton", "2574");
+            return DriverManager.getConnection("jdbc:mysql://10.0.70.90:3306/bdfotolito?allowPublicKeyRetrieval=true&useSSL=false", "carton", "2574");
 
         } catch (Exception erro) {
             throw new RuntimeException(erro);

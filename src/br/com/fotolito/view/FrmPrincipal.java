@@ -1274,7 +1274,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txt_idCliente.setBorder(null);
         txt_idCliente.setEnabled(false);
         txt_idCliente.setFocusable(false);
-        txt_idCliente.setOpaque(false);
         txt_idCliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_idClienteActionPerformed(evt);
@@ -1520,7 +1519,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txt_idSetor.setBorder(null);
         txt_idSetor.setEnabled(false);
         txt_idSetor.setFocusable(false);
-        txt_idSetor.setOpaque(false);
         txt_idSetor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_idSetorActionPerformed(evt);
@@ -1678,7 +1676,6 @@ public class FrmPrincipal extends javax.swing.JFrame {
         txt_idTurno.setBorder(null);
         txt_idTurno.setEnabled(false);
         txt_idTurno.setFocusable(false);
-        txt_idTurno.setOpaque(false);
         txt_idTurno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txt_idTurnoActionPerformed(evt);
